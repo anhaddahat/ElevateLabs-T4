@@ -1,0 +1,7 @@
+Commands used:
+1. sudo systemctl status ssh 
+2. sudo ss -tuln | grep 22 : to check if the port is listening
+3. ssh <kali_username>@<Kali_IP_Address> : from Mac to kali machine
+4. sudo ufw status verbose : status of ufw and its rules
+5. sudo ufw deny 22/tcp
+6. sudo ufw delete deny 22/tcp
